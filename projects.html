@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website" />
+    <title>Projects | Portfolio</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.png">
+<link rel="shortcut icon" href="assets/favicon/favicon-v2.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="RWAKARAMA Patient home">
+          <img class="brand-logo" src="assets/icons/logo.png" alt="RWAKARAMA Patient logo" />
+          <span class="brand-text">RWAKARAMA Patient</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="projects.html" aria-current="page">Projects</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="projects-main">
+      <section class="projects-page-intro" aria-labelledby="projects-page-title">
+        <div class="container projects-inner">
+          <h1 class="section-title-box projects-page-title" id="projects-page-title">Projects</h1>
+          <p class="projects-lead">
+            Ongoing front-end projects focused on clean structure, responsive behavior, and practical user
+            experience.
+          </p>
+        </div>
+      </section>
+
+      <section class="projects-section" aria-labelledby="projects-list-title">
+        <div class="container projects-inner">
+          <h2 class="projects-subtitle" id="projects-list-title">Current Projects</h2>
+
+          <div class="project-cards projects-grid">
+            <article class="project-card projects-card">
+              <img src="assets/images/icyangwe.png" alt="Icyangwe project preview" class="project-card-image" />
+              <div class="project-card-body">
+                <div class="project-card-top">
+                  <h3 class="project-card-name">Icyangwe</h3>
+                  <span class="project-status">In Progress</span>
+                </div>
+
+                <p class="project-card-desc">
+                  A web interface currently in development, focused on clear layout, consistent behavior,
+                  and responsive presentation.
+                </p>
+
+                <div class="projects-stack" aria-label="Icyangwe stack">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="projects-links" aria-label="Icyangwe links">
+                  <span class="cta-link" aria-disabled="true">More Details Soon</span>
+                  <a class="cta-link cta-link-primary" href="contact.html">Discuss Project</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card projects-card">
+              <img src="assets/images/rwakadocs.png" alt="RwakaDocs project preview" class="project-card-image" />
+              <div class="project-card-body">
+                <div class="project-card-top">
+                  <h3 class="project-card-name">RwakaDocs</h3>
+                  <span class="project-status">In Progress</span>
+                </div>
+
+                <p class="project-card-desc">
+                  A documentation-focused interface in progress, being refined for clarity, structure, and
+                  ease of navigation.
+                </p>
+
+                <div class="projects-stack" aria-label="RwakaDocs stack">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="projects-links" aria-label="RwakaDocs links">
+                  <span class="cta-link" aria-disabled="true">More Details Soon</span>
+                  <a class="cta-link cta-link-primary" href="contact.html">Discuss Project</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section projects-soon" aria-labelledby="projects-soon-title">
+        <div class="container projects-inner">
+          <h2 class="projects-subtitle" id="projects-soon-title">More Projects Coming Soon</h2>
+          <p>
+            Additional work is in progress and will be published here as each project reaches a stable
+            milestone.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-info">
+          <p class="footer-name">RWAKARAMA Patient</p>
+          <p class="footer-copy">&copy; 2026 All rights reserved.</p>
+        </div>
+
+        <nav class="social-nav" aria-label="Social links">
+          <a class="social-link" href="https://github.com/rwakaramapatient" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="assets/icons/github.svg" alt="" />
+          </a>
+          <a class="social-link" href="https://linkedin.com/in/rwakarama-patient-4941693b5" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin.svg" alt="" />
+          </a>
+          <a class="social-link" href="https://www.instagram.com/r.w.a.k.a.r.a.m.a" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/icons/instagram.svg" alt="" />
+          </a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

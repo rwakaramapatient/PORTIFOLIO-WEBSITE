@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website" />
+    <title>Home | Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.png">
+<link rel="shortcut icon" href="assets/favicon/favicon-v2.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="RWAKARAMA Patient home">
+          <img class="brand-logo" src="assets/icons/logo.png" alt="RWAKARAMA Patient logo" />
+          <span class="brand-text">RWAKARAMA Patient</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html" aria-current="page">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-name">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <p class="hero-role">Front-End Developer</p>
+            <h1 class="hero-name" id="hero-name">RWAKARAMA Patient</h1>
+            <p class="hero-supporting">
+              Front-End Developer focused on building clean, responsive, and user-friendly websites.
+            </p>
+            <p class="hero-intro">
+              Passionate about turning ideas into smooth digital experiences across all devices.
+            </p>
+
+            <div class="hero-actions" aria-label="Hero actions">
+              <a class="hero-cta hero-cta-primary" href="projects.html">View Projects</a>
+              <a class="hero-cta" href="contact.html">Contact Me</a>
+            </div>
+
+            <nav class="hero-social" aria-label="Hero social links">
+              <a href="https://github.com/rwakaramapatient" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://linkedin.com/in/rwakarama-patient-4941693b5" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.instagram.com/r.w.a.k.a.r.a.m.a" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </nav>
+          </div>
+
+          <figure class="hero-media">
+            <img src="assets/images/rwakarama.png" alt="Portrait of RWAKARAMA Patient" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="home-preview about-preview" aria-labelledby="about-preview-title">
+        <div class="container home-preview-inner">
+          <header class="section-head">
+            <h2 class="section-title-box" id="about-preview-title">About Me</h2>
+          </header>
+
+          <div class="section-body">
+            <p>
+              I am a Front-End Developer focused on building clean, responsive, and user-friendly
+              websites.
+            </p>
+            <p>
+              I enjoy turning ideas into clear digital experiences that work consistently across devices.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-preview skills-preview" aria-labelledby="skills-preview-title">
+        <div class="container home-preview-inner">
+          <header class="section-head">
+            <h2 class="section-title-box" id="skills-preview-title">Core Skills</h2>
+          </header>
+
+          <ul class="skills-list" aria-label="Core front-end skills">
+            <li class="skill-chip">HTML5</li>
+            <li class="skill-chip">CSS3</li>
+            <li class="skill-chip">JavaScript</li>
+            <li class="skill-chip">Responsive Design</li>
+            <li class="skill-chip">Git &amp; GitHub</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="home-preview projects-preview" aria-labelledby="projects-preview-title">
+        <div class="container home-preview-inner">
+          <header class="section-head">
+            <h2 class="section-title-box" id="projects-preview-title">Projects</h2>
+          </header>
+
+          <div class="project-cards">
+            <article class="project-card">
+              <img src="assets/images/icyangwe.png" alt="Icyangwe project preview" class="project-card-image" />
+              <div class="project-card-body">
+                <div class="project-card-top">
+                  <h3 class="project-card-name">Icyangwe</h3>
+                  <span class="project-status">In Progress</span>
+                </div>
+                <p class="project-card-desc">
+                  A responsive front-end interface currently being developed with a focus on clean structure
+                  and usability.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/images/rwakadocs.png" alt="RwakaDocs project preview" class="project-card-image" />
+              <div class="project-card-body">
+                <div class="project-card-top">
+                  <h3 class="project-card-name">RwakaDocs</h3>
+                  <span class="project-status">In Progress</span>
+                </div>
+                <p class="project-card-desc">
+                  An in-progress documentation interface designed to keep information organized, readable,
+                  and easy to navigate.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-preview cta-preview" aria-labelledby="cta-preview-title">
+        <div class="container home-preview-inner">
+          <header class="section-head">
+            <h2 class="section-title-box" id="cta-preview-title">Let&apos;s Work Together</h2>
+          </header>
+
+          <p class="cta-text">
+            Explore current projects or get in touch to discuss your next website.
+          </p>
+
+          <div class="cta-actions">
+            <a class="cta-link cta-link-primary" href="projects.html">View Projects</a>
+            <a class="cta-link" href="contact.html">Contact Me</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-info">
+          <p class="footer-name">RWAKARAMA Patient</p>
+          <p class="footer-copy">&copy; 2026 All rights reserved.</p>
+        </div>
+
+        <nav class="social-nav" aria-label="Social links">
+          <a class="social-link" href="https://github.com/rwakaramapatient" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="assets/icons/github.svg" alt="" />
+          </a>
+          <a class="social-link" href="https://linkedin.com/in/rwakarama-patient-4941693b5" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin.svg" alt="" />
+          </a>
+          <a class="social-link" href="https://www.instagram.com/r.w.a.k.a.r.a.m.a" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/icons/instagram.svg" alt="" />
+          </a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio website" />
-    <title>Home | Portfolio</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.png">
-<link rel="shortcut icon" href="assets/favicon/favicon-v2.png">
+    <meta name="description" content="Product-minded junior front-end developer portfolio focused on proof-driven, responsive interfaces." />
+    <title>RWAKARAMA Patient | Product-Minded Junior Frontend Developer</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-v2.png" />
+    <link rel="shortcut icon" href="assets/favicon/favicon-v2.png" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
   </head>
@@ -36,56 +36,113 @@
           <a class="nav-link" href="index.html" aria-current="page">Home</a>
           <a class="nav-link" href="about.html">About</a>
           <a class="nav-link" href="projects.html">Projects</a>
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#cta-preview-title">Contact</a>
         </nav>
       </div>
     </header>
 
     <main id="main-content">
-      <section class="hero" aria-labelledby="hero-name">
+      <section class="hero" aria-labelledby="hero-title">
         <div class="container hero-inner">
           <div class="hero-content">
-            <p class="hero-role">Front-End Developer</p>
-            <h1 class="hero-name" id="hero-name">RWAKARAMA Patient</h1>
+            <p class="hero-role">Product-Minded Junior Front-End Developer</p>
+            <h1 class="hero-name" id="hero-title">
+              I build calm, clear front-end products from real user and business goals.
+            </h1>
             <p class="hero-supporting">
-              Front-End Developer focused on building clean, responsive, and user-friendly websites.
-            </p>
-            <p class="hero-intro">
-              Passionate about turning ideas into smooth digital experiences across all devices.
+              I help teams turn ideas into usable interfaces with thoughtful information architecture,
+              responsive behavior, and maintainable HTML, CSS, and JavaScript.
             </p>
 
             <div class="hero-actions" aria-label="Hero actions">
-              <a class="hero-cta hero-cta-primary" href="projects.html">View Projects</a>
-              <a class="hero-cta" href="contact.html">Contact Me</a>
+              <a class="hero-cta hero-cta-primary" href="#projects-preview-title">View Proof of Work</a>
+              <a
+                class="hero-cta"
+                href="https://wa.me/250798650719?text=Hello%20Patient%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Start on WhatsApp
+              </a>
             </div>
 
-            <nav class="hero-social" aria-label="Hero social links">
-              <a href="https://github.com/rwakaramapatient" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <p class="hero-contact-note">
+              Backup channel:
+              <a href="mailto:thesecond1018@gmail.com">Email</a>
+              or
               <a href="https://linkedin.com/in/rwakarama-patient-4941693b5" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="https://www.instagram.com/r.w.a.k.a.r.a.m.a" target="_blank" rel="noopener noreferrer">Instagram</a>
-            </nav>
+            </p>
           </div>
 
-          <figure class="hero-media">
-            <img src="assets/images/rwakarama.png" alt="Portrait of RWAKARAMA Patient" />
-          </figure>
+          <article class="hero-featured-project" aria-labelledby="hero-feature-title">
+            <img src="assets/images/life-manual-desktop-2.jpg" alt="Life Manual interface preview" class="hero-feature-image" />
+            <div class="hero-feature-body">
+              <p class="hero-feature-kicker">Featured Build</p>
+              <h2 id="hero-feature-title">Life Manual</h2>
+              <p>
+                A shipped waitlist landing-page product focused on trust, clarity, and clear user guidance
+                around a serious real-life use case.
+              </p>
+              <ul class="hero-feature-list">
+                <li>Communicates sensitive value with calm visual hierarchy</li>
+                <li>Responsive structure designed for mobile-first reading flow</li>
+                <li>Built and shipped through team-based frontend delivery</li>
+              </ul>
+              <a class="hero-feature-link" href="life-manual-case-study.html">Read case study</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Quick proof points">
+        <div class="container">
+          <ul class="proof-list">
+            <li>
+              <span class="proof-value">2 shipped products</span>
+              <span class="proof-label">live proof projects with direct links</span>
+            </li>
+            <li>
+              <span class="proof-value">2 case studies</span>
+              <span class="proof-label">problem, decisions, and contribution breakdown</span>
+            </li>
+            <li>
+              <span class="proof-value">HTML/CSS/JS</span>
+              <span class="proof-label">core stack used in shipped work</span>
+            </li>
+            <li>
+              <span class="proof-value">Responsive</span>
+              <span class="proof-label">mobile-first behavior across key layouts</span>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="home-preview about-preview" aria-labelledby="about-preview-title">
         <div class="container home-preview-inner">
           <header class="section-head">
-            <h2 class="section-title-box" id="about-preview-title">About Me</h2>
+            <h2 class="section-title-box" id="about-preview-title">About</h2>
           </header>
 
           <div class="section-body">
             <p>
-              I am a Front-End Developer focused on building clean, responsive, and user-friendly
-              websites.
+              I am a junior front-end developer with a product mindset. I focus on building interfaces that
+              are easy to navigate, predictable to use, and practical to maintain.
             </p>
             <p>
-              I enjoy turning ideas into clear digital experiences that work consistently across devices.
+              My work combines UX structure, clear visual hierarchy, and clean implementation so teams can
+              move from early concepts to reliable product surfaces faster.
             </p>
+          </div>
+
+          <div class="about-preview-panel">
+            <figure class="about-preview-photo">
+              <img src="assets/images/rwakarama.png" alt="RWAKARAMA Patient portrait" />
+            </figure>
+            <ul class="about-proof-list" aria-label="Professional positioning">
+              <li>Best fit for MVP interfaces where clarity and delivery speed matter.</li>
+              <li>Prioritizes readable code, reusable UI patterns, and responsive behavior.</li>
+              <li>Works comfortably in fast feedback loops with teams and founders.</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -101,6 +158,7 @@
             <li class="skill-chip">CSS3</li>
             <li class="skill-chip">JavaScript</li>
             <li class="skill-chip">Responsive Design</li>
+            <li class="skill-chip">Information Architecture</li>
             <li class="skill-chip">Git &amp; GitHub</li>
           </ul>
         </div>
@@ -109,36 +167,140 @@
       <section class="home-preview projects-preview" aria-labelledby="projects-preview-title">
         <div class="container home-preview-inner">
           <header class="section-head">
-            <h2 class="section-title-box" id="projects-preview-title">Projects</h2>
+            <h2 class="section-title-box" id="projects-preview-title">Projects as Proof</h2>
           </header>
 
           <div class="project-cards">
             <article class="project-card">
-              <img src="assets/images/icyangwe.png" alt="Icyangwe project preview" class="project-card-image" />
+              <img src="assets/images/life-manual-desktop-1.jpg" alt="Life Manual project preview" class="project-card-image" />
               <div class="project-card-body">
                 <div class="project-card-top">
-                  <h3 class="project-card-name">Icyangwe</h3>
-                  <span class="project-status">In Progress</span>
+                  <h3 class="project-card-name">Life Manual</h3>
+                  <span class="project-status">Shipped</span>
                 </div>
                 <p class="project-card-desc">
-                  A responsive front-end interface currently being developed with a focus on clean structure
-                  and usability.
+                  A waitlist landing-page product focused on helping important personal information reach
+                  the right person at the right time.
                 </p>
+                <div class="project-meta" aria-label="Life Manual project context">
+                  <p><span>For</span> People who want their important information accessed by the right person at the right time.</p>
+                  <p><span>Role</span> Frontend Developer (team project).</p>
+                </div>
+                <ul class="project-proof-list" aria-label="Life Manual proof points">
+                  <li><span>Type</span> Waitlist / landing-page product.</li>
+                  <li><span>Why it matters</span> Turns a serious real-life problem into a clear, trustworthy web experience.</li>
+                </ul>
+                <div class="project-stack-wrap">
+                  <p class="project-stack-title">Stack</p>
+                  <div class="project-stack" aria-label="Life Manual stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                </div>
+                <div class="project-actions" aria-label="Life Manual actions">
+                  <a
+                    class="project-action project-action-primary"
+                    href="https://life-manual-n.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Project
+                  </a>
+                  <a
+                    class="project-action"
+                    href="https://github.com/rwakaramapatient"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Profile
+                  </a>
+                  <a class="project-action" href="life-manual-case-study.html">Case Study</a>
+                </div>
               </div>
             </article>
 
             <article class="project-card">
-              <img src="assets/images/rwakadocs.png" alt="RwakaDocs project preview" class="project-card-image" />
+              <img src="assets/images/cest-cherife-desktop-1.jpg" alt="C'est Cherife Todo project preview" class="project-card-image" />
               <div class="project-card-body">
                 <div class="project-card-top">
-                  <h3 class="project-card-name">RwakaDocs</h3>
-                  <span class="project-status">In Progress</span>
+                  <h3 class="project-card-name">C&apos;est Cherife Todo</h3>
+                  <span class="project-status">Shipped</span>
                 </div>
                 <p class="project-card-desc">
-                  An in-progress documentation interface designed to keep information organized, readable,
-                  and easy to navigate.
+                  A todo app built for clean task management with a focused interface for planning,
+                  organizing, and completing work.
                 </p>
+                <div class="project-meta" aria-label="C'est Cherife Todo project context">
+                  <p><span>For</span> General users who want a clean task-management interface.</p>
+                  <p><span>Role</span> Builder / Frontend Developer.</p>
+                </div>
+                <ul class="project-proof-list" aria-label="C'est Cherife Todo proof points">
+                  <li><span>Type</span> Todo app.</li>
+                  <li><span>Why it matters</span> Shows product thinking, interface structure, and polished frontend execution.</li>
+                </ul>
+                <div class="project-stack-wrap">
+                  <p class="project-stack-title">Stack</p>
+                  <div class="project-stack" aria-label="C'est Cherife Todo stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                </div>
+                <div class="project-actions" aria-label="C'est Cherife Todo actions">
+                  <a
+                    class="project-action project-action-primary"
+                    href="https://cestcherife.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Project
+                  </a>
+                  <a
+                    class="project-action"
+                    href="https://github.com/rwakaramapatient/C-est-cherife-todo.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repo
+                  </a>
+                  <a class="project-action" href="cest-cherife-todo-case-study.html">Case Study</a>
+                </div>
               </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="home-preview lab-preview" aria-labelledby="lab-preview-title">
+        <div class="container home-preview-inner">
+          <header class="section-head">
+            <h2 class="section-title-box" id="lab-preview-title">Lab &amp; Writing</h2>
+          </header>
+
+          <p class="lab-intro">
+            Short notes on interface decisions, structure experiments, and practical front-end product
+            lessons from ongoing work.
+          </p>
+
+          <div class="lab-grid">
+            <article class="lab-card">
+              <p class="lab-card-status">Recent Note</p>
+              <h3 class="lab-card-title">Life Manual: designing trust-first landing flow</h3>
+              <p class="lab-card-desc">
+                A short breakdown of how hierarchy, pacing, and copy clarity shaped the Life Manual user
+                journey.
+              </p>
+            </article>
+
+            <article class="lab-card">
+              <p class="lab-card-status">Recent Note</p>
+              <h3 class="lab-card-title">C&apos;est Cherife Todo: simplifying task UI decisions</h3>
+              <p class="lab-card-desc">
+                Notes on structure and interaction choices used to keep task management clear, fast, and
+                practical.
+              </p>
             </article>
           </div>
         </div>
@@ -147,16 +309,25 @@
       <section class="home-preview cta-preview" aria-labelledby="cta-preview-title">
         <div class="container home-preview-inner">
           <header class="section-head">
-            <h2 class="section-title-box" id="cta-preview-title">Let&apos;s Work Together</h2>
+            <h2 class="section-title-box" id="cta-preview-title">Open to Frontend Roles and Product Projects</h2>
           </header>
 
           <p class="cta-text">
-            Explore current projects or get in touch to discuss your next website.
+            Available for junior frontend roles, internships, and selected product projects. Recruiters,
+            hiring managers, founders, and teams can reach out with role details or project scope.
           </p>
 
           <div class="cta-actions">
-            <a class="cta-link cta-link-primary" href="projects.html">View Projects</a>
-            <a class="cta-link" href="contact.html">Contact Me</a>
+            <a
+              class="cta-link cta-link-primary"
+              href="https://wa.me/250798650719?text=Hello%20Patient%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message on WhatsApp
+            </a>
+            <a class="cta-link" href="mailto:thesecond1018@gmail.com">Email</a>
+            <a class="cta-link" href="https://linkedin.com/in/rwakarama-patient-4941693b5" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </section>
